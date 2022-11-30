@@ -1,0 +1,46 @@
+.container {
+	width: 90%;
+	height: 80%;
+	margin: 40px auto;
+	font-size: 45px;
+}
+
+header, footer, .img1, .img2, .text {
+	text-align: center;
+}
+
+header, footer{
+	height: 100px;
+	line-height: 100px;
+}
+
+header {
+	background-color: #4296cd;
+}
+
+header, img, footer {
+	width: 100%;
+}
+
+.img1, .img2, .text {
+	float: left;
+	height: 400px;
+}
+
+.img1, .text {
+	width: 30%;
+}
+
+.img2 {
+	width: 40%;
+}
+
+.text {
+	background-color: #b854ad;
+	line-height: 400px;
+}
+
+footer {
+	background-color: #ca8151;
+	clear: left;
+}
