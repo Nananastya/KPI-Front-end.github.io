@@ -1,0 +1,84 @@
+.container {
+	text-align: center;
+	font-size: 18px;
+}
+
+/* task1 */
+
+table {
+	width: 80%;
+	margin: 40px auto;
+	border-collapse: collapse;
+}
+
+table,
+td {
+	border: 1px solid #242424;
+}
+
+td {
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.half {
+	width: 12.5%;
+}
+
+tr:first-child {
+	background-color: #788f8f;
+}
+
+tr:first-child:hover {
+	background: #947763;
+	color: #d6c750;
+	transition: 1s;
+}
+
+tr:nth-child(2) {
+	background-color: #f5f578;
+	transition: 1s;
+}
+tr:nth-child(2):hover {
+	background: #c16df0;
+	color: #061470;
+	transition: 1s;
+}
+
+/* task2 */
+
+.task2 {
+	margin: 0 auto;
+	width: 80%;
+	height: 400px;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: double #000000;
+	border-radius: 14px;
+}
+
+.square:first-child {
+	background-color: #f1b584;
+	position: relative;
+}
+
+.square:nth-child(2) {
+	background-color: #c99a99a2;
+	position: relative;
+	bottom: 100px;
+	left: 100px;
+}
+
+.square:nth-child(3) {
+	background-color: #f1b584;
+	transform: translate(400px, -410px);
+}
+
+.square:nth-child(4) {
+	background-color: #c99a99a2;
+	transform: translate(500px, -510px);
+}
